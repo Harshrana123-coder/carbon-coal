@@ -21,7 +21,7 @@ export default function Calculator() {
 
   const submit = async () => {
     const res = await axios.post(
-      "http://carbon-coal.onrender.com/api/emission/calculate",
+      "https://.onrender.com/api/emission/calculate",
       form
     );
     setResult(res.data);
